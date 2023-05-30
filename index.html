@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta name="Keywords" content="승기, 라윤, 4월7일, 6PM, 그랜드인터컨티넨탈, 서울파르나스5층, 강남, 예식장" />
+        <meta name="Description" content="4월 7일 수요일 오후 6시" />
+        <meta name="Robots" content="All" />
+        <meta name="Date" content="2023-03-02+09:00" />
+        <meta http-equiv="Subject" content="승기 라윤" />
+        <meta http-equiv="Title" content="승기 라윤" />
+        <meta http-equiv="Author" content="JOY" />
+        <meta http-equiv="Expires" content="-1" />
+        <meta http-equiv="Cache-Control" content="no-cache" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="승기 라윤" />
+        <meta property="og:description" content="4월 7일 수요일 오후 6시" />
+        <meta property="og:image" content="" />
+        <meta property="og:url" content="" />
+        <title>승기 라윤</title>
+        <!--CSS-->
+        <link rel="stylesheet" href="css/fonts.css" type="text/css" />
+        <link rel="stylesheet" href="css/all.css" type="text/css" />
+        <link rel="stylesheet" href="css/main.css" type="text/css" />
+        <link rel="stylesheet" href="css/setting.css" type="text/css" />
+        <!--JQUERY-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <!--LOCOMOTIVE-->
+        <link rel="stylesheet" href="locomotive/locomotive-scroll.css" type="text/css" />
+        <script src="locomotive/locomotive-scroll.min.js"></script>
+        <!--GSAP-->
+        <script src="gsap/gsap.min.js"></script>
+        <script src="gsap/ScrollTrigger.min.js"></script>
+    </head>
+    <body>
+        <div class="scrollContainer">
+            <div class="wedding_box">
+                <div class="wedding_bg">
+                    <img src="img/bg.png" alt="배경" />
+                </div>
+                <div class="wedding_cont">
+                    <div class="logo_box">
+                        <div class="logo logo_scroll">
+                            <img src="img/logo.png" alt="승기라윤" />
+                        </div>
+                        <div class="data logo_scrollX">
+                            <img src="img/logo_data.png" alt="230407" />
+                        </div>
+                    </div>
+                    <div class="txt_box txt_box1">
+                        <p class="txt_scroll1">
+                            이병익 임은순의 장남<br />
+                            승기
+                        </p>
+                        <p class="txt_scroll1">
+                            이홍현 견미리의 차녀<br />
+                            라윤
+                        </p>
+                    </div>
+                    <div class="txt_box txt_box2">
+                        <p class="txt_scroll2">
+                            믿음과 사랑을 약속하는<br />
+                            귀한 날에 저희의 하나 됨을<br />
+                            축복해 주시면 감사하겠습니다.
+                        </p>
+                    </div>
+                    <div class="txt_box txt_box3">
+                        <p class="txt_scroll3">
+                            2023.04.07<br />
+                            6pm
+                        </p>
+                        <p class="txt_scroll3">
+                            그랜드 인터컨티넨탈<br />
+                            서울 파르나스 5층<br />
+                            그랜드볼룸<br />
+                            서울 강남구 테헤란로 521
+                        </p>
+                    </div>
+                    <div class="txt_box txt_box4">
+                        <p class="txt_scroll4">
+                            예식 당일 입장을 위해<br />
+                            본 초대장을 지참하여<br />
+                            주시기 바랍니다.
+                        </p>
+                    </div>
+                    <div class="wedding_btn_con wedding_btn_con1">
+                        <ul class="wedding_btn_box">
+                            <li class="wedding_btn btn_scroll1"><a href="#" data-pop="attending_pop">본식 참석 여부</a></li>
+                            <li class="wedding_btn wedding_btn2 btn_scroll1"><a href="#">지도보기</a></li>
+                        </ul>
+                    </div>
+                    <div class="txt_box txt_box5">
+                        <p class="txt_scroll5">
+                            저희들의 결혼식에<br />
+                            참석해 주시고<br />
+                            축하해 주신 모든 하객분들께<br />
+                            결혼식이 끝난 후<br />
+                            감사의 마음으로 답례품을<br />
+                            전달드리고자 합니다.
+                        </p>
+                    </div>
+                    <div class="wedding_btn_con wedding_btn_con2">
+                        <ul class="wedding_btn_box">
+                            <li class="wedding_btn btn_scroll2"><a href="#" data-pop="address_pop">주소 입력하기</a></li>
+                        </ul>
+                    </div>
+                    <div class="bottom_logo imgScal">
+                        <img src="img/bottom_logo.png" alt="승기라윤" />
+                    </div>
+                    <div class="wedding_sns_con">
+                        <ul class="wedding_sns_box">
+                            <li class="link_scroll1"><a href="#">링크복사 버튼</a></li>
+                            <li class="link_scroll1"><a href="#">카카오공유 버튼</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="popup_bg"></div>
+        <div id="attending_pop" class="popup_con">
+            <div class="popup_box">
+                <form>
+                    <div class="popup_tit">
+                        <h2>본식 참석하기</h2>
+                    </div>
+                    <div class="popup_cont">
+                        <div class="popup_txt">
+                            <p>신랑 & 신부에게 전달될 정보를 입력해 주세요.</p>
+                        </div>
+                        <ul class="select_btn_box">
+                            <li class="select_btn groom_select active">
+                                <button><span></span>신랑측</button>
+                            </li>
+                            <li class="select_btn bride_select">
+                                <button><span></span>신부측</button>
+                            </li>
+                        </ul>
+                        <ul class="popup_list">
+                            <li class="list_item">
+                                <div class="list_h2">
+                                    <h2>성함<span>*</span></h2>
+                                </div>
+                                <div class="list_cont">
+                                    <div class="list_input">
+                                        <input type="text" placeholder="성함을 입력해주세요." />
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list_item">
+                                <div class="list_h2">
+                                    <h2>연락처<span>*</span></h2>
+                                </div>
+                                <div class="list_cont">
+                                    <div class="list_input">
+                                        <input type="number" placeholder="연락처를 입력해주세요." />
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list_item">
+                                <div class="list_h2">
+                                    <h2>전달사항</h2>
+                                </div>
+                                <div class="list_cont">
+                                    <div class="list_input">
+                                        <input type="text" maxlength="25" placeholder="전달하실 내용을 입력해주세요 (최대25자)" />
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="popup_btn_con">
+                        <ul class="popup_btn_box">
+                            <li class="popup_btn submit_btn"><button type="submit">전달</button></li>
+                            <li class="popup_btn close_btn"><button type="button">닫기</button></li>
+                        </ul>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div id="address_pop" class="popup_con">
+            <div class="popup_box">
+                <form>
+                    <div class="popup_tit">
+                        <h2>주소 입력하기</h2>
+                    </div>
+                    <div class="popup_cont">
+                        <div class="popup_txt">
+                            <p>신랑 & 신부에게 전달될 주소를 입력해주세요</p>
+                        </div>
+                        <ul class="select_btn_box">
+                            <li class="select_btn groom_select active">
+                                <button><span></span>신랑측</button>
+                            </li>
+                            <li class="select_btn bride_select">
+                                <button><span></span>신부측</button>
+                            </li>
+                        </ul>
+                        <ul class="popup_list">
+                            <li class="list_item">
+                                <div class="list_h2">
+                                    <h2>성함<span>*</span></h2>
+                                </div>
+                                <div class="list_cont">
+                                    <div class="list_input">
+                                        <input type="text" placeholder="성함을 입력해주세요." />
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list_item">
+                                <div class="list_h2">
+                                    <h2>연락처<span>*</span></h2>
+                                </div>
+                                <div class="list_cont">
+                                    <div class="list_input">
+                                        <input type="number" placeholder="연락처를 입력해주세요." />
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list_item">
+                                <div class="list_h2">
+                                    <h2>주소<span>*</span></h2>
+                                </div>
+                                <div class="list_cont">
+                                    <div class="list_input">
+                                        <input type="text" placeholder="주소를 입력해주세요." />
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="popup_btn_con">
+                        <ul class="popup_btn_box">
+                            <li class="popup_btn submit_btn"><button type="submit">전달</button></li>
+                            <li class="popup_btn close_btn"><button type="button">닫기</button></li>
+                        </ul>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+    <script src="js/anime.js"></script>
+    <script src="js/common.js"></script>
+</html>
